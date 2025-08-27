@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nazar Fedorov - Content Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+        }
+        header {
+            position: fixed;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #0077cc;
+            padding: 10px 0px;
+            width: 90px;
+            color: white;
+            z-index: 2;
+        }
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 25px; 
+        }
+        .logo img {
+            height: 50px;
+        }
+        .logo-text {
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .side-menu {
+            width: 200px;
+            position: absolute;
+            left: 0;
+            background-color: #c9c907;
+            color: white;
+            top: 0;
+            bottom: 0;
+            height: 3476px;
+            padding-top:80px;
+            overflow-y: auto;
+            z-index: 1;
+        }
+        .side-menu h3 {
+            text-align: center;
+        }
+        .side-menu ul {
+            list-style: none;
+            padding: 0;
+        }
+        .side-menu ul li {
+            padding: 10px;
+            text-align: center;
+        }
+        .side-menu ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        .side-menu ul li a:hover {
+            background: #555;
+            display: block;
+        }
+        .content {
+            margin-left: 380px;
+            padding: 20px;
+            background: white;
+            max-width: 900px;
+            margin-top: 100px;
+            margin-bottom: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        h2 {
+            color: #E67E22;
+            border-bottom: 2px solid #E67E22;
+            padding-bottom: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #0077cc;
+            color: white;
+            width: 100%;
+            left: 0;
+            z-index: 2;
+        }
+        header, footer {
+          
+            width: 100%;
+            left: 0;
+            z-index: 2;
+        }
+        
+        header {
+            top: 0;
+        }
+        
+        footer {
+            bottom: 0;
+            height: 70px;
+        }
+        .footer-text a {
+            text-decoration: none;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+        .footer-text a:hover {
+            text-decoration: underline;
+        }
+        .button{
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            padding: 10px 15px;
+            background: blue;
+            color: white;
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .button:hover{
+            background: #0077cc;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="Photos/logo.jpg" alt="LogoPhoto">
+            <span class="logo-text">Clean Water & Sanitation</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="volunteer.html">Volunteer</a></li>
+                <li><a href="table.html">Table</a></li>
+                <li><a href="profile.html">User Profile</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+                <li><a href="sitemap.html">Sitemap</a></li>
+                <li><a href="team.html">Team</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <aside class="side-menu">
+        <h3>Content Page Sections</h3>
+        <ul>
+            <li><a href="#section1">Introduction</a></li>
+            <li><a href="#section2">Clean Water & Sanitation</a></li>
+            <li><a href="#section3">Water Pollution</a></li>
+            <li><a href="#section4">Solutions</a></li>
+            <li><a href="#section5">Future Goals</a></li>
+        </ul>
+    </aside>
+    <main class="content">
+        <section id="section1">
+            <h2>Introduction</h2>
+            <p>
+                Water is the foundation of life, yet millions of people worldwide still lack access to clean water and 
+                proper sanitation. This website serves as a platform to educate, raise awareness, and encourage action 
+                toward achieving sustainable water management and sanitation solutions. Through informative content, 
+                interactive features, and real-world data, we aim to highlight the importance of clean water access 
+                and inspire positive change.
+            </p>
+            <p>
+                Our structured <strong>navigation menu</strong> allows users to explore key sections, such as 
+                <em>Volunteer, Table, User Profile,</em> and more. To improve engagement, clear <strong>call-to-action buttons</strong> are 
+                placed throughout the site, making it easier to get involved.
+            </p>
+            <p>
+                Additionally, we’ve integrated <strong>interactive elements</strong>, including **dynamic circular diagrams** 
+                that visually represent different student-driven initiatives. These diagrams contain <em>clickable areas</em> 
+                that lead to key sections, such as the <strong>Page Editor, Content, and Validation</strong> pages.
+            </p>
+            <p>
+                To enhance user experience, we’ve implemented a **JavaScript-powered "Join Us" button** that displays 
+                an engaging alert message upon clicking. **Subtle hover effects and animations** have also been added 
+                to the navigation bar, ensuring a smooth and visually appealing browsing experience.
+            </p>
+        </section>
+    
+        <section id="section2">
+            <h2>Clean Water & Sanitation</h2>
+            <p>
+                Clean water and proper sanitation are essential for human survival and overall well-being. However, 
+                over 2 billion people still lack access to safe drinking water, while inadequate sanitation leads to 
+                the spread of deadly diseases. Sustainable water management is crucial in ensuring that future 
+                generations have access to this vital resource.
+            </p>
+            <p>
+                Our initiative promotes solutions such as **water conservation, efficient filtration systems, and 
+                community-driven projects** to improve sanitation infrastructure. By working together, we can address 
+                the global water crisis and ensure safe, accessible water for all.
+            </p>
+            <img width="800" src="Photos/sudan-wash.jpeg" alt="Clean Water">
+        </section>
+    
+        <section id="section3">
+            <h2>Water Pollution</h2>
+            <p>
+                Water pollution is one of the biggest threats to clean water availability. Industrial waste, agricultural 
+                runoff, plastic pollution, and improper sewage disposal contaminate water sources, making them unsafe for 
+                consumption and harming aquatic ecosystems.
+            </p>
+            <p>
+                The main sources of water pollution include:
+            </p>
+            <ul>
+                <li><strong>Industrial waste:</strong> Toxic chemicals released into rivers and lakes cause severe contamination.</li>
+                <li><strong>Plastic pollution:</strong> Millions of tons of plastic waste end up in oceans and water bodies annually.</li>
+                <li><strong>Agricultural runoff:</strong> Pesticides and fertilizers seep into water sources, causing algae blooms and harming wildlife.</li>
+                <li><strong>Poor wastewater management:</strong> Untreated sewage and wastewater increase the spread of diseases like cholera.</li>
+            </ul>
+            <p>
+                Addressing these issues requires strong policies, corporate responsibility, and community action to reduce pollution.
+            </p>
+            <img width="800" src="Photos/rsz__nguyen.jpeg" alt="Polluted Water">
+        </section>
+    
+        <section id="section4">
+            <h2>Solutions</h2>
+            <p>
+                The fight for clean water involves a combination of technology, policy, and public awareness. Some of 
+                the most effective solutions to improving global water quality include:
+            </p>
+            <ol>
+                <li><strong>Innovative Filtration Systems:</strong> Advanced water purification technologies help remove harmful contaminants and ensure safe drinking water.</li>
+                <li><strong>Waste Management Programs:</strong> Reducing plastic waste and promoting proper disposal methods prevent pollution in water sources.</li>
+                <li><strong>Eco-Friendly Farming Practices:</strong> Limiting the use of harmful fertilizers and pesticides prevents toxic runoff into rivers and lakes.</li>
+                <li><strong>Government Regulations:</strong> Enforcing stricter laws on industrial waste disposal helps minimize pollution.</li>
+                <li><strong>Community Initiatives:</strong> Local programs focusing on water conservation and education empower people to take action.</li>
+            </ol>
+            <p>
+                Combining these strategies can significantly reduce pollution and improve access to clean water worldwide.
+            </p>
+            <img width="800" src="Photos/~lg-Water.jpeg" alt="Water Solutions">
+        </section>
+    
+        <section id="section5">
+            <h2>Future Goals</h2>
+            <p>
+                Looking ahead, we strive to ensure sustainable water usage and sanitation improvements through several key 
+                initiatives:
+            </p>
+            <ul>
+                <li><strong>Education:</strong> Raising awareness about water conservation and pollution prevention.</li>
+                <li><strong>Community Projects:</strong> Implementing local initiatives to provide clean water access in underprivileged areas.</li>
+                <li><strong>Policy Advocacy:</strong> Encouraging governments and industries to adopt environmentally friendly water management practices.</li>
+                <li><strong>Technological Advancements:</strong> Supporting research and innovation in water filtration and purification methods.</li>
+            </ul>
+            <p>
+                By focusing on these areas, we can take meaningful steps toward a world where clean water is accessible to everyone.
+            </p>
+            <img width="800" src="Photos/WaterIdea.webp" alt="Future Goals">
+        </section>
+
+        <a href="#top" class="button"> Go To Top </a>
+    </main>
+    
+    
+    <footer>
+        <p>&copy; 2025 Clean Water & Sanitation Initiative | All Rights Reserved</p>
+        <div class="footer-text">
+            <p> 
+                <a href="pageEditor_ST2.html#cont">Go to Editor Page</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
